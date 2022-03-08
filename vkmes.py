@@ -34,7 +34,7 @@ else:
             while int(spot) < int(chats):
                 api.messages.createChat(user_ids=users, title="GudCom")
                 spot += 1
-                time.sleep(15)
+                time.sleep(30)
             print(spot)
         except Exception as er:
             print(er)
